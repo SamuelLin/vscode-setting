@@ -38,6 +38,12 @@
   "files.simpleDialog.enable": true,
   "git.autofetch": true,
   "git.untrackedChanges": "separate",
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": true,
+    "yaml": true
+  },
   "i18n-ally.displayLanguage": "zh",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "liveServer.settings.donotShowInfoMsg": true,
