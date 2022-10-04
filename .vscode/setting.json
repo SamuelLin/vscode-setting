@@ -1,9 +1,19 @@
 {
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "breadcrumbs.enabled": true,
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
     "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
     "source.organizeImports": false
   },
   "editor.fontFamily": "Operator Mono, Fira Code, monospace",
@@ -44,12 +54,18 @@
     "plaintext": true,
     "yaml": true
   },
-  "i18n-ally.displayLanguage": "zh",
+  "i18n-ally.displayLanguage": "zh-TW",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
   "material-icon-theme.folders.color": "#fdd835",
   "security.workspace.trust.untrustedFiles": "open",
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "vue"
+  ],
   "sync.gist": "6920ec7b4804eb36b0e24506e879a5ba",
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.cursorBlinking": true,
