@@ -1,13 +1,4 @@
 {
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "breadcrumbs.enabled": true,
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
@@ -24,6 +15,7 @@
   "editor.minimap.enabled": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
+  "emmet.showSuggestionsAsSnippets": true,
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
@@ -59,6 +51,24 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
   "material-icon-theme.folders.color": "#fdd835",
+  "search.exclude": {
+    "**/.git": true,
+    "**/.github": true,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/logs": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/tmp": true,
+    "**/yarn.lock": true
+  },
   "security.workspace.trust.untrustedFiles": "open",
   "stylelint.validate": [
     "css",
@@ -72,11 +82,16 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
   "vsicons.dontShowNewVersionMessage": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorTheme": "Vitesse Dark Soft",
   "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.tabCloseButton": "left",
   "workbench.iconTheme": "vscode-icons",
+  "workbench.preferredDarkColorTheme": "Vitesse Dark Soft",
+  "workbench.preferredLightColorTheme": "Vitesse Light Soft",
   "workbench.productIconTheme": "icons-carbon",
   "workbench.startupEditor": "none"
 }
