@@ -1,5 +1,19 @@
 {
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
   "breadcrumbs.enabled": true,
+  "cSpell.allowCompoundWords": true,
+  "cSpell.language": "en,en-US",
+  "cSpell.userWords": [
+    "vuex"
+  ],
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
@@ -7,15 +21,25 @@
     "source.fixAll.stylelint": true,
     "source.organizeImports": false
   },
-  "editor.fontFamily": "Operator Mono, Fira Code, monospace",
+  "editor.fontFamily": "operator Mono, Fira Code, monospace",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "editor.fontSize": 13.5,
   "editor.guides.bracketPairs": "active",
   "editor.inlineSuggest.enabled": true,
+  "editor.linkedEditing": true,
   "editor.minimap.enabled": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
   "emmet.showSuggestionsAsSnippets": true,
+  "errorLens.enabledDiagnosticLevels": [
+    "warning",
+    "error"
+  ],
+  "errorLens.excludeBySource": [
+    "cSpell",
+    "Grammarly",
+    "eslint"
+  ],
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
@@ -40,13 +64,11 @@
   "files.simpleDialog.enable": true,
   "git.autofetch": true,
   "git.untrackedChanges": "separate",
-  "github.copilot.enable": {
-    "*": true,
-    "markdown": true,
-    "plaintext": true,
-    "yaml": true
-  },
   "i18n-ally.displayLanguage": "zh-TW",
+  "indentRainbow.excludedLanguages": [
+    "plaintext"
+  ],
+  "indentRainbow.indicatorStyle": "light",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
@@ -76,22 +98,25 @@
     "postcss",
     "vue"
   ],
-  "sync.gist": "6920ec7b4804eb36b0e24506e879a5ba",
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
   "terminal.integrated.persistentSessionReviveProcess": "never",
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
   "vsicons.dontShowNewVersionMessage": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.colorTheme": "Vitesse Dark Soft",
+  "window.commandCenter": false,
+  "window.nativeTabs": true,
+  "workbench.colorTheme": "Vitesse Dark",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.tabCloseButton": "left",
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.preferredDarkColorTheme": "Vitesse Dark Soft",
-  "workbench.preferredLightColorTheme": "Vitesse Light Soft",
+  "workbench.iconTheme": "file-icons",
+  "workbench.preferredDarkColorTheme": "Vitesse Dark",
+  "workbench.preferredLightColorTheme": "Vitesse Light",
   "workbench.productIconTheme": "icons-carbon",
   "workbench.startupEditor": "none"
 }
