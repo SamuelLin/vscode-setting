@@ -6,7 +6,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[vue]": {
-    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "breadcrumbs.enabled": true,
   "cSpell.allowCompoundWords": true,
@@ -16,7 +16,6 @@
   ],
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
-    "source.fixAll": false,
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true,
     "source.organizeImports": false
