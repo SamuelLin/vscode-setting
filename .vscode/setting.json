@@ -11,9 +11,6 @@
   "breadcrumbs.enabled": true,
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
-  "cSpell.userWords": [
-    "vuex"
-  ],
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
@@ -97,12 +94,11 @@
     "postcss",
     "vue"
   ],
-  "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+  "terminal.integrated.fontWeight": "300",
   "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.tabs.enabled": true,
   "totalTypeScript.hideAllTips": false,
   "totalTypeScript.hideBasicTips": false,
   "vsicons.dontShowNewVersionMessage": true,
